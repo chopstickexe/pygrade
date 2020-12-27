@@ -38,5 +38,12 @@ def solution_three(A):
 def solution_four(A):
     # Must be less than 10 bytes
     # NG: 19 bytes
-    return A[:,0].reshape(1,5)
+    # return A[:,0].reshape(1,5)
+    # NG: 17 bytes
+    # return A[np.newaxis,:,0]
+    # NG: 11 bytes
+    # Ref: https://deepage.net/features/numpy-newaxis.html
+    return A[None,:,0]
+
+
 
