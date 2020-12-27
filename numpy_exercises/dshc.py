@@ -44,6 +44,7 @@ def solution_four(A):
     # NG: 11 bytes
     # Ref: https://deepage.net/features/numpy-newaxis.html
     return A[None,:,0]
+    # Give up!
 
 
 def solution_five(A):
