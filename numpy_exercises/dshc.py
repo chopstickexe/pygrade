@@ -4,8 +4,8 @@ import re
 
 def solution_one(A):
     # Must be less than 45 bytes
-    # OK: 41 bytes
-    return np.stack(A[i : i + 7] for i in range(10))
+    # OK: 43 bytes
+    return np.stack([A[i : i + 7] for i in range(10)])
 
 
 def solution_two(A):
