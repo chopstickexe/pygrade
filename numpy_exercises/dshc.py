@@ -33,3 +33,10 @@ def solution_three(A):
     # return ", ".join(filter(str.istitle, A))
     # OK? 32 bytes
     return ", ".join(filter(str.istitle,A))
+
+
+def solution_four(A):
+    # Must be less than 10 bytes
+    # NG: 19 bytes
+    return A[:,0].reshape(1,5)
+

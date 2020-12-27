@@ -20,3 +20,8 @@ def test_dshc_two():
 def test_dshc_three():
     A = ["country", "form", "Name", "order", "god", "information", "child", "Night", "policy", "development", "question", "end", "Work", "mother", "Problem", "Age", "Road", "Company", "Head", "home"]
     assert (dshc.solution_three(A) == "Name, Night, Work, Problem, Age, Road, Company, Head")
+
+
+def test_dshc_four():
+    A = np.array(range(0, 25)).reshape(5, 5)
+    assert np.array_equal(dshc.solution_four(A), np.array([[0, 5, 10, 15, 20]]))
