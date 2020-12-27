@@ -46,4 +46,11 @@ def solution_four(A):
     return A[None,:,0]
 
 
+def solution_five(A):
+    # Must be less than 12 bytes
+    # NG: 19 bytes
+    # return np.where(A<=10,0,A)
+    # OK? 9+1 bytes
+    A[A<11]=0
+    return A
 
