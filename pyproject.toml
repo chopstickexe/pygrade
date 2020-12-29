@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "numpy-exercises"
+name = "pygrade"
 version = "0.1.0"
 description = ""
 authors = ["Risa Nishiyama <lisa.nishiyama@gmail.com>"]

@@ -1,3 +1,11 @@
-# Numpy Exercises
+# PyGrade
 
-Numpyの練習（非公開版）
+[PyGrade](https://www.pygrade.com/?lang=ja) をやってみた記録
+
+```
+├── pygrade
+│   └── python_basics_40.py          # Python Basics 40の回答（抜粋）
+├── tests
+│   └── test_python_basics_40.py     # python_basics_40.pyのテスト
+└── README.md          この文書
+```
