@@ -4,8 +4,9 @@
 
 ```
 ├── pygrade
-│   └── python_basics_40.py          # Python Basics 40の回答（抜粋）
+│   |── python_basics.py          # Python Basics 40の回答（抜粋）
+│   └── pandas_basics.py          # Pandas Basics 20の回答（抜粋）
 ├── tests
-│   └── test_python_basics_40.py     # python_basics_40.pyのテスト
+│   └── test_python_basics.py     # python_basics.pyのテスト
 └── README.md          この文書
 ```
