@@ -1,5 +1,5 @@
 import numpy as np
-from pygrade import python_basics
+from exercises.pygrade import python_basics
 
 
 def test_one():
