@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pygrade"
+name = "python-exercises"
 version = "0.1.0"
 description = ""
 authors = ["Risa Nishiyama <lisa.nishiyama@gmail.com>"]
@@ -8,6 +8,8 @@ authors = ["Risa Nishiyama <lisa.nishiyama@gmail.com>"]
 python = "^3.8"
 numpy = "^1.19.4"
 pandas = "^1.2.0"
+matplotlib = "^3.3.3"
+seaborn = "^0.11.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
